@@ -1,0 +1,115 @@
+object frmMain: TfrmMain
+  Left = 330
+  Height = 469
+  Top = 88
+  Width = 589
+  ClientHeight = 469
+  ClientWidth = 589
+  Font.CharSet = ANSI_CHARSET
+  Font.Height = -13
+  Font.Name = 'Arial'
+  Font.Pitch = fpVariable
+  Font.Quality = fqDraft
+  OnShow = FormShow
+  Position = poScreenCenter
+  LCLVersion = '1.6.0.4'
+  object edCFGFile: TFileNameEdit
+    Left = 21
+    Height = 24
+    Top = 32
+    Width = 548
+    FilterIndex = 0
+    HideDirectories = False
+    ButtonWidth = 23
+    NumGlyphs = 1
+    Anchors = [akTop, akLeft, akRight]
+    MaxLength = 0
+    TabOrder = 0
+  end
+  object Label1: TLabel
+    Left = 21
+    Height = 16
+    Top = 14
+    Width = 78
+    Caption = 'Configuracion'
+    ParentColor = False
+  end
+  object btnProcess: TBitBtn
+    Left = 21
+    Height = 46
+    Top = 404
+    Width = 107
+    Anchors = [akLeft, akBottom]
+    Caption = 'Procesar'
+    OnClick = btnProcessClick
+    TabOrder = 1
+  end
+  object fileList: TListBox
+    Left = 20
+    Height = 185
+    Top = 88
+    Width = 548
+    Anchors = [akTop, akLeft, akRight]
+    ItemHeight = 0
+    TabOrder = 2
+  end
+  object Label2: TLabel
+    Left = 21
+    Height = 16
+    Top = 70
+    Width = 49
+    Caption = 'Archivos'
+    ParentColor = False
+  end
+  object pbProcess: TProgressBar
+    Left = 21
+    Height = 20
+    Top = 306
+    Width = 548
+    TabOrder = 3
+  end
+  object Label3: TLabel
+    Left = 21
+    Height = 16
+    Top = 288
+    Width = 48
+    Caption = 'Proceso'
+    ParentColor = False
+  end
+  object MemoText: TMemo
+    Left = 168
+    Height = 106
+    Top = 344
+    Width = 400
+    TabOrder = 4
+  end
+  object BitBtn1: TBitBtn
+    Left = 68
+    Height = 30
+    Top = 342
+    Width = 75
+    Caption = 'BitBtn1'
+    OnClick = BitBtn1Click
+    TabOrder = 5
+  end
+  object abZip: TAbZipper
+    AutoSave = False
+    DeflationOption = doMaximum
+    DOSMode = False
+    OnArchiveProgress = abZipArchiveProgress
+    StoreOptions = [soStripDrive, soStripPath, soRemoveDots, soReplace]
+    left = 56
+    top = 112
+  end
+  object FTP: TLFTPClientComponent
+    OnConnect = FTPConnect
+    OnSent = FTPSent
+    OnControl = FTPControl
+    OnError = FTPError
+    OnSuccess = FTPSuccess
+    PipeLine = False
+    Timeout = 0
+    left = 120
+    top = 116
+  end
+end
