@@ -18,6 +18,7 @@ object frmMain: TfrmMain
     Height = 24
     Top = 32
     Width = 548
+    Filter = 'Archivos de configuracion (*.csn)|*.csn|Todos los archivos (*.*)|*.*'
     FilterIndex = 0
     HideDirectories = False
     ButtonWidth = 23
@@ -78,19 +79,18 @@ object frmMain: TfrmMain
   end
   object MemoText: TMemo
     Left = 168
-    Height = 106
-    Top = 344
+    Height = 98
+    Top = 352
     Width = 400
     TabOrder = 4
   end
-  object BitBtn1: TBitBtn
-    Left = 68
-    Height = 30
-    Top = 342
-    Width = 75
-    Caption = 'BitBtn1'
-    OnClick = BitBtn1Click
-    TabOrder = 5
+  object Label4: TLabel
+    Left = 170
+    Height = 16
+    Top = 334
+    Width = 77
+    Caption = 'Log conexión'
+    ParentColor = False
   end
   object abZip: TAbZipper
     AutoSave = False

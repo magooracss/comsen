@@ -14,7 +14,6 @@ type
 
   TfrmMain = class(TForm)
     abZip: TAbZipper;
-    BitBtn1: TBitBtn;
     btnProcess: TBitBtn;
     edCFGFile: TFileNameEdit;
     Label1: TLabel;
@@ -22,6 +21,7 @@ type
     Label3: TLabel;
     fileList: TListBox;
     FTP: TLFTPClientComponent;
+    Label4: TLabel;
     MemoText: TMemo;
     pbProcess: TProgressBar;
     procedure abZipArchiveProgress(Sender: TObject; Progress: Byte;

@@ -16,6 +16,8 @@
     </i18n>
     <VersionInfo>
       <UseVersionInfo Value="True"/>
+      <MajorVersionNr Value="1"/>
+      <Language Value="080A"/>
       <StringTable ProductVersion=""/>
     </VersionInfo>
     <BuildModes Count="1">

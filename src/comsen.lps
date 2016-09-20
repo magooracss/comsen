@@ -10,7 +10,7 @@
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="-1"/>
         <CursorPos Y="16"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="27"/>
       </Unit0>
       <Unit1>
         <Filename Value="frm_main.pas"/>
@@ -20,18 +20,19 @@
         <ResourceBaseClass Value="Form"/>
         <IsVisibleTab Value="True"/>
         <TopLine Value="95"/>
-        <CursorPos X="8" Y="101"/>
-        <UsageCount Value="26"/>
+        <CursorPos X="104" Y="108"/>
+        <UsageCount Value="27"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit1>
       <Unit2>
         <Filename Value="SD_Configuracion.pas"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="-1"/>
+        <EditorIndex Value="1"/>
         <TopLine Value="2"/>
-        <CursorPos X="21" Y="18"/>
-        <UsageCount Value="26"/>
+        <CursorPos X="21" Y="11"/>
+        <UsageCount Value="27"/>
+        <Loaded Value="True"/>
       </Unit2>
       <Unit3>
         <Filename Value="C:\magoo\lazarus\fpc\3.0.0\source\packages\fcl-base\src\inifiles.pp"/>
@@ -138,7 +139,7 @@
         <UsageCount Value="10"/>
       </Unit16>
     </Units>
-    <JumpHistory Count="27" HistoryIndex="26">
+    <JumpHistory Count="28" HistoryIndex="27">
       <Position1>
         <Filename Value="frm_main.pas"/>
         <Caret Line="155" TopLine="133"/>
@@ -193,60 +194,64 @@
       </Position13>
       <Position14>
         <Filename Value="frm_main.pas"/>
-        <Caret Line="157" Column="89" TopLine="165"/>
+        <Caret Line="114" Column="78" TopLine="112"/>
       </Position14>
       <Position15>
         <Filename Value="frm_main.pas"/>
-        <Caret Line="114" Column="78" TopLine="112"/>
+        <Caret Line="208" Column="4" TopLine="180"/>
       </Position15>
       <Position16>
         <Filename Value="frm_main.pas"/>
-        <Caret Line="208" Column="4" TopLine="180"/>
+        <Caret Line="189" TopLine="161"/>
       </Position16>
       <Position17>
         <Filename Value="frm_main.pas"/>
-        <Caret Line="189" TopLine="161"/>
+        <Caret Line="177" Column="55" TopLine="156"/>
       </Position17>
       <Position18>
         <Filename Value="frm_main.pas"/>
-        <Caret Line="177" Column="55" TopLine="156"/>
+        <Caret Line="165" Column="7" TopLine="155"/>
       </Position18>
       <Position19>
         <Filename Value="frm_main.pas"/>
-        <Caret Line="165" Column="7" TopLine="155"/>
+        <Caret Line="163" TopLine="156"/>
       </Position19>
       <Position20>
         <Filename Value="frm_main.pas"/>
-        <Caret Line="163" TopLine="156"/>
+        <Caret Line="115" Column="77" TopLine="109"/>
       </Position20>
       <Position21>
         <Filename Value="frm_main.pas"/>
-        <Caret Line="115" Column="77" TopLine="109"/>
+        <Caret Line="173" TopLine="161"/>
       </Position21>
       <Position22>
         <Filename Value="frm_main.pas"/>
-        <Caret Line="173" TopLine="161"/>
+        <Caret Line="211" Column="6" TopLine="190"/>
       </Position22>
       <Position23>
         <Filename Value="frm_main.pas"/>
-        <Caret Line="211" Column="6" TopLine="190"/>
+        <Caret Line="214" TopLine="192"/>
       </Position23>
       <Position24>
         <Filename Value="frm_main.pas"/>
-        <Caret Line="214" TopLine="192"/>
+        <Caret Line="125" Column="104" TopLine="123"/>
       </Position24>
       <Position25>
         <Filename Value="frm_main.pas"/>
-        <Caret Line="125" Column="104" TopLine="123"/>
+        <Caret Line="214" Column="108" TopLine="192"/>
       </Position25>
       <Position26>
         <Filename Value="frm_main.pas"/>
-        <Caret Line="214" Column="108" TopLine="192"/>
+        <Caret Line="137" Column="8" TopLine="123"/>
       </Position26>
       <Position27>
         <Filename Value="frm_main.pas"/>
-        <Caret Line="137" Column="8" TopLine="123"/>
+        <Caret Line="101" Column="8" TopLine="95"/>
       </Position27>
+      <Position28>
+        <Filename Value="frm_main.pas"/>
+        <Caret Line="100" Column="8" TopLine="94"/>
+      </Position28>
     </JumpHistory>
   </ProjectSession>
   <Debugging>
