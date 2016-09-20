@@ -26,6 +26,7 @@ object frmMain: TfrmMain
     Anchors = [akTop, akLeft, akRight]
     MaxLength = 0
     TabOrder = 0
+    OnChange = edCFGFileChange
   end
   object Label1: TLabel
     Left = 21

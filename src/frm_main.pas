@@ -28,6 +28,7 @@ type
       var Abort: Boolean);
     procedure BitBtn1Click(Sender: TObject);
     procedure btnProcessClick(Sender: TObject);
+    procedure edCFGFileChange(Sender: TObject);
     procedure FormShow(Sender: TObject);
     procedure FTPConnect(aSocket: TLSocket);
     procedure FTPControl(aSocket: TLSocket);
@@ -64,10 +65,15 @@ begin
   if allOk then
   	 processAll;
 end;
+
+procedure TfrmMain.edCFGFileChange(Sender: TObject);
+begin
+  loadCFG;
+end;
+
 procedure TfrmMain.FormShow(Sender: TObject);
 begin
-  edCFGFile.FileName:= 'C:\Dropbox\bak\Trabajo\Trabajo\Windows\comsen\exe\default.cfg';
-  loadCFG;
+
 end;
 
 function TfrmMain.allOK: boolean;
